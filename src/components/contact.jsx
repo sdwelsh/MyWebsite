@@ -46,7 +46,8 @@ class Contact extends Component {
         <div class="row align-items-center">
         
           <div class="col-md-6 mb-md-0 mb-5 container">
-            <form onSubmit={this.handleSubmit}>
+            
+          <form onSubmit={this.handleSubmit}>
               <div class="row">
                 <div class="col-md-6">
                   <div class="md-form mb-0">
@@ -96,8 +97,6 @@ class Contact extends Component {
             </div>
             <div class="status"></div>
             </form>
-
-           
           </div>
 
           <div class="col-md-4 text-center">
