@@ -85,17 +85,18 @@ class Contact extends Component {
                   </div>
                 </div>
               </div>
-            </form>
-
-            <div class="text-center text-md-left">
-              <a
-                class="btn btn-primary"
-                onclick="document.getElementById('contact-form').submit();"
+              <div class="text-center text-md-left">
+              <button
+                type='submit'
+                class="btn btn-primary text-white"
               >
                 Send
-              </a>
+              </button>
             </div>
             <div class="status"></div>
+            </form>
+
+           
           </div>
 
           <div class="col-md-4 text-center">
