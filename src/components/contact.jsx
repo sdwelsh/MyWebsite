@@ -12,7 +12,7 @@ class Contact extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", message: "" };
+    this.state = { name: "", email: "", subject: "", message: "" };
   }
 
   /* Here’s the juicy bit for posting the form submission */
@@ -71,7 +71,7 @@ class Contact extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="email" name="email" value={this.email} onChange={this.handleChange} class="form-control"/>
+                    <input type="text" name="subject" value={this.subject} onChange={this.handleChange} class="form-control"/>
                     <label for="subject" class="">
                       Subject
                     </label>
