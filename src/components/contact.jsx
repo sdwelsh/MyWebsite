@@ -21,7 +21,6 @@ class Contact extends Component {
             <form
               id="contact-form"
               name="contact-form"
-              action="mail.php"
               method="POST"
               netlify
             >
