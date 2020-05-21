@@ -2,7 +2,35 @@ import React, { Component } from "react";
 
 //style={{ "margin-left": "3rem" }}
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
 class Contact extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "" };
+  }
+
+  /* Here’s the juicy bit for posting the form submission */
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
     return (
       <header className="masthead" style={{ "margin-top": "6rem" }}>
@@ -18,21 +46,11 @@ class Contact extends Component {
         <div class="row align-items-center">
         
           <div class="col-md-6 mb-md-0 mb-5 container">
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true" data-netlify-honeypot="bot-field"
-            >
+            <form onSubmit={this.handleSubmit}>
               <div class="row">
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                  <input type="hidden" name="form-name" value="contact" />
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                    />
+                    <input type="text" name="name" value={this.name} onChange={this.handleChange} class="form-control"/>
                     <label for="name" class="">
                       Your name
                     </label>
@@ -41,12 +59,7 @@ class Contact extends Component {
 
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                    />
+                    <input type="email" name="email" value={this.email} onChange={this.handleChange} class="form-control"/>
                     <label for="email" class="">
                       Your email
                     </label>
@@ -57,12 +70,7 @@ class Contact extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      class="form-control"
-                    />
+                    <input type="email" name="email" value={this.email} onChange={this.handleChange} class="form-control"/>
                     <label for="subject" class="">
                       Subject
                     </label>
@@ -73,13 +81,7 @@ class Contact extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form">
-                    <textarea
-                      type="text"
-                      id="message"
-                      name="message"
-                      rows="2"
-                      class="form-control md-textarea"
-                    ></textarea>
+                    <textarea name="message" value={this.message} onChange={this.handleChange} class="form-control"/>
                     <label for="message">Your message</label>
                   </div>
                 </div>
@@ -87,6 +89,7 @@ class Contact extends Component {
               <div class="text-center text-md-left">
               <button
                 class="btn btn-primary text-white"
+                type="submit"
               >
                 Send
               </button>
