@@ -23,6 +23,7 @@ class Contact extends Component {
               name="contact-form"
               action="mail.php"
               method="POST"
+              netlify
             >
               <div class="row">
                 <div class="col-md-6">
