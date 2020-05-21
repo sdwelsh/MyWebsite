@@ -14,7 +14,7 @@ class Home extends Component {
                 Stephen Welsh
               </h1>
               <p class="lead" style={{ color: "white", "font-size": "2rem" }}>
-                IT student at NC State University
+                IT Student at NC State University
               </p>
               <div class="btn-group mr-2">
                 <button class="btn btn-dark" href="#">

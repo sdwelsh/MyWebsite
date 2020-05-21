@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+//style={{ "margin-left": "3rem" }}
+
 class Contact extends Component {
   render() {
     return (
@@ -14,7 +16,8 @@ class Contact extends Component {
         </p>
 
         <div class="row align-items-center">
-          <div class="col-md-6 mb-md-0 mb-5 " style={{ "margin-left": "3rem" }}>
+        
+          <div class="col-md-6 mb-md-0 mb-5 container">
             <form
               id="contact-form"
               name="contact-form"

@@ -26,7 +26,7 @@ class AboutMe extends Component {
                     "margin-top": "1rem",
                   }}
                 >
-                  Im a hardworking, personable, ambitious, professional student
+                  I'm a hardworking, personable, ambitious, professional student
                   able to organize, lead, and manage efficiently and effectively
                   while learning to adapt to a rapidly changing professional
                   environment.
