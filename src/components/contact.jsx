@@ -87,7 +87,6 @@ class Contact extends Component {
               </div>
               <div class="text-center text-md-left">
               <button
-                type='submit'
                 class="btn btn-primary text-white"
               >
                 Send
