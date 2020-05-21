@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import NavBar from "./components/navbar";
+import Home from "./components/home";
+import Contact from "./components/contact";
+import AboutMe from "./components/aboutme";
+import Footer from "./components/footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    name: "Home",
+  };
+
+  handleNav = (passedName) => {
+    this.setState({ name: passedName });
+  };
+
+  render() {
+    return (
+      <React.Fragment>
+        <NavBar onNav={this.handleNav} />
+        {this.addElement()}
+        <Footer />
+      </React.Fragment>
+    );
+  }
+
+  addElement() {
+    if (this.state.name === "Home") {
+      return <Home />;
+    } else if (this.state.name === "Projects") {
+    } else if (this.state.name === "Resume") {
+    } else if (this.state.name === "Contact") {
+      return <Contact />;
+    } else if (this.state.name === "AboutMe") {
+      return <AboutMe />;
+    } else {
+      return <Home />;
+    }
+  }
 }
 
 export default App;
