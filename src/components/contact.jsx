@@ -19,15 +19,14 @@ class Contact extends Component {
         
           <div class="col-md-6 mb-md-0 mb-5 container">
             <form
-              id="contact-form"
-              name="contact-form"
+              name="contact"
               method="POST"
-              netlify
-              netlify-honeypot="bot-field"
+              data-netlify="true" data-netlify-honeypot="bot-field"
             >
               <div class="row">
                 <div class="col-md-6">
                   <div class="md-form mb-0">
+                  <input type="hidden" name="form-name" value="contact" />
                     <input
                       type="text"
                       id="name"
