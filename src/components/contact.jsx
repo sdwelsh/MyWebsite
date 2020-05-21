@@ -23,6 +23,7 @@ class Contact extends Component {
               name="contact-form"
               method="POST"
               netlify
+              netlify-honeypot="bot-field"
             >
               <div class="row">
                 <div class="col-md-6">
