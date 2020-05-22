@@ -13,7 +13,8 @@ class AboutMe extends Component {
                   class="font-weight-light text-center"
                   style={{
                     "font-size": "3.5rem",
-                    "margin-top": "10rem",
+                    "margin-top": "10vw",
+                    "margin-bottom": "1rem"
                   }}
                 >
                   Professional Summary
@@ -36,7 +37,7 @@ class AboutMe extends Component {
           </div>
         </header>
         <section class="py-5">
-          <div class="container align-items-center">
+          <div class="container align-items-center" style={{"margin-bottom": "3rem"}}>
             <h2
               class="font-weight-light"
               style={{
@@ -50,7 +51,7 @@ class AboutMe extends Component {
               height="350px"
               width="500px"
               class="img-fluid float-right"
-              style={{ "margin-top": "2rem", "margin-left": "1rem" }}
+              style={{ "margin-top": "2rem", "margin-left": "1rem", "margin-bottom": "2rem" }}
             />
             <p style={{ "margin-top": "2rem" }}>
               I have a keen interest in pursuing a career combining business
