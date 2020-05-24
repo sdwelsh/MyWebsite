@@ -20,6 +20,15 @@
       url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   }
 
+  .ncstate{
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url('https://www.ncsu.edu/content/uploads/2019/09/Skyline_MAH8557.jpg');
+  }
+
   footer a {
     color: #fff;
     font-size: 14px;
@@ -40,6 +49,18 @@
   .footer-middle {
     padding-top: 1em;
     color: white;
+  }
+
+  /*Resume Div containters*/
+
+  .mast{
+    height: auto;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+
   }
   
   
@@ -133,3 +154,11 @@
   .h-85 {
     height: 85% !important;
   }
+
+  .brand-image{
+    padding: 0px;
+    height:40px;
+    width: 40px;
+
+  }
+

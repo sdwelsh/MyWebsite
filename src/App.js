@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Contact from "./components/contact";
 import AboutMe from "./components/aboutme";
 import Footer from "./components/footer";
+import Resume from "./components/resume";
 
 class App extends Component {
   state = {
@@ -27,9 +28,10 @@ class App extends Component {
 
   addElement() {
     if (this.state.name === "Home") {
-      return <Home />;
+      return <Home onButton={this.handleNav}/>;
     } else if (this.state.name === "Projects") {
     } else if (this.state.name === "Resume") {
+      return <Resume />;
     } else if (this.state.name === "Contact") {
       return <Contact />;
     } else if (this.state.name === "AboutMe") {

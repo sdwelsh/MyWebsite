@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from 'react-reveal/Fade';
 
 class AboutMe extends Component {
   state = {};
@@ -8,30 +9,32 @@ class AboutMe extends Component {
         <header class="masthead text-white darken">
           <div class="container">
             <section class="py-5">
-              <div class="col-12 h-75 align-items-center">
-                <h2
-                  class="font-weight-light text-center"
-                  style={{
-                    "font-size": "3.5rem",
-                    "margin-top": "10vw",
-                    "margin-bottom": "1rem"
-                  }}
-                >
-                  Professional Summary
-                </h2>
-                <br />
-                <p
-                  class="text-center"
-                  style={{
-                    "font-size": "1.5rem",
-                    "margin-top": "1rem",
-                  }}
-                >
-                  I'm a hardworking, personable, ambitious, professional student
-                  able to organize, lead, and manage efficiently and effectively
-                  while learning to adapt to a rapidly changing professional
-                  environment.
-                </p>
+              <div class="col-12 h-75 align-items-center text-center">
+                <Fade bottom>
+                  <h2
+                    class="font-weight-light text-center"
+                    style={{
+                      "font-size": "3.5rem",
+                      "margin-top": "10vw",
+                      "margin-bottom": "1rem"
+                    }}
+                  >
+                    Professional Summary
+                  </h2>
+                  <br />
+                  <p
+                    class="text-center"
+                    style={{
+                      "font-size": "1.5rem",
+                      "margin-top": "1rem",
+                    }}
+                  >
+                    I'm a hardworking, personable, ambitious, professional student
+                    able to organize, lead, and manage efficiently and effectively
+                    while learning to adapt to a rapidly changing professional
+                    environment.
+                  </p>
+                </Fade>
               </div>
             </section>
           </div>
