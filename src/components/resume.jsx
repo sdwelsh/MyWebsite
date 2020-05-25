@@ -133,67 +133,71 @@ class Resume extends Component {
           <Fade bottom>
             <div>
               <h1
-                style={{ "padding-top": "6rem", "padding-bottom": "8rem" }}
+                style={{ "padding-top": "6rem", "padding-bottom": "6vw" }}
                 class="font-weight-bolder text-center"
               >
                 Skills
               </h1>
               <div class="container">
-                <div class="row align-items-start ">
-                  <div class="col-lg offset-1">
+                <div class="row align-items-start">
+                  <div
+                    class="col-md text-center"
+                    style={{ "padding-bottom": "3rem" }}
+                  >
                     <img
                       src="https://image.flaticon.com/icons/svg/2166/2166822.svg"
                       style={{ height: "5rem", width: "5rem" }}
                     />
                     <h4>Front End</h4>
-                    <ul class="">
-                      <li>React</li>
-                      <li>Bootstrap</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                    </ul>
+                    <p>React</p>
+                    <p>Bootstrap</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
                   </div>
 
-                  <div class="col-lg offset-1">
+                  <div
+                    class="col-lg text-center"
+                    style={{ "padding-bottom": "3rem" }}
+                  >
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/8/86/Database-icon.svg"
                       style={{ height: "5rem", width: "5rem" }}
                     />
                     <h4>Back End</h4>
-                    <ul class="">
-                      <li>Java</li>
-                      <li>Node.js</li>
-                      <li>MongoDB</li>
-                      <li>Springboot</li>
-                    </ul>
+                    <p>Java</p>
+                    <p>Node.js</p>
+                    <p>MongoDB</p>
+                    <p>Springboot</p>
                   </div>
 
-                  <div class="col-lg offset-1">
+                  <div
+                    class="col-lg text-center"
+                    style={{ "padding-bottom": "3rem" }}
+                  >
                     <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTak6px58w9KV-ezvPAVCyVBguI1ath9M89mkhDsdRLVAUJXBwZ&usqp=CAU"
                       style={{ height: "5rem", width: "5rem" }}
                     />
                     <h4>Management</h4>
-                    <ul class="">
-                      <li>Timeline Creation</li>
-                      <li>Project Managment</li>
-                      <li>Client Interaction</li>
-                      <li>Schedule Creation</li>
-                    </ul>
+                    <p>Timeline Creation</p>
+                    <p>Project Managment</p>
+                    <p>Client Interaction</p>
+                    <p>Schedule Creation</p>
                   </div>
 
-                  <div class="col-lg offset-1">
+                  <div
+                    class="col-lg text-center"
+                    style={{ "padding-bottom": "3rem" }}
+                  >
                     <img
                       src="https://image.flaticon.com/icons/svg/1260/1260086.svg"
                       style={{ height: "5rem", width: "5rem" }}
                     />
                     <h4>Marketing</h4>
-                    <ul class="">
-                      <li>Qualtrics</li>
-                      <li>Focus Groups</li>
-                      <li>Search Engine Optimization</li>
-                      <li>Marketing Analysis</li>
-                    </ul>
+                    <p>Qualtrics</p>
+                    <p>Focus Groups</p>
+                    <p>Search Engine Optimization</p>
+                    <p>Marketing Analysis</p>
                   </div>
                 </div>
               </div>
