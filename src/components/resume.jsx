@@ -201,6 +201,17 @@ class Resume extends Component {
                   </div>
                 </div>
               </div>
+              <div class="text-center" style={{ "padding-top": "6rem" }}>
+                <a href="/Resume.docx" class="btn bg-dark text-white" download>
+                  <img
+                    src="https://img.icons8.com/all/500/download.png"
+                    height="20rem"
+                    width="30rem"
+                    style={{ "padding-right": ".5rem" }}
+                  />
+                  Download My Resume
+                </a>
+              </div>
             </div>
           </Fade>
         </section>
