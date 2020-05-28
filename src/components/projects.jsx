@@ -225,7 +225,10 @@ class Projects extends Component {
               class="row align-items-center"
               style={{ "padding-top": "3rem" }}
             >
-              <div class="col-sm text-center">
+              <div
+                class="col-sm text-center"
+                style={{ "padding-bottom": "1rem" }}
+              >
                 <img src="images/react.png" height="200px" width="auto" />
               </div>
               <div class="col-sm text-center">
