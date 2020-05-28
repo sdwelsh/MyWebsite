@@ -206,7 +206,7 @@ class Projects extends Component {
               <br />
               <li>
                 The websites CSS is a combination of Bootstrap CSS and my own
-                external Stylesheet.{" "}
+                external Stylesheet.
               </li>
               <br />
               <li>
