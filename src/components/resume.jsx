@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 class Resume extends Component {
   render() {
     return (
-      <div class="parent">
+      <div>
         <section class="ncstate mast text-white child">
           <Fade bottom>
             <div>

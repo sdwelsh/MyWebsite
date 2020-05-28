@@ -43,6 +43,24 @@ footer a:hover {
   color: white;
 }
 
+/* Blur-zoom Container */
+.img-hover-zoom {
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
+
+.img-hover-zoom--blur img {
+  transition: transform 1s, filter 1s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.2);
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+
 /*Resume Div containters*/
 
 .mast {
@@ -60,6 +78,24 @@ footer a:hover {
 
 p {
   margin: 0;
+}
+
+.img-margin {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*SOCİAL İCONS*/

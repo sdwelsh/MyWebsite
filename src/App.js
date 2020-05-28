@@ -6,6 +6,7 @@ import Contact from "./components/contact";
 import AboutMe from "./components/aboutme";
 import Footer from "./components/footer";
 import Resume from "./components/resume";
+import Projects from "./components/projects";
 
 class App extends Component {
   state = {
@@ -28,8 +29,9 @@ class App extends Component {
 
   addElement() {
     if (this.state.name === "Home") {
-      return <Home onButton={this.handleNav}/>;
+      return <Home onButton={this.handleNav} />;
     } else if (this.state.name === "Projects") {
+      return <Projects />;
     } else if (this.state.name === "Resume") {
       return <Resume />;
     } else if (this.state.name === "Contact") {
