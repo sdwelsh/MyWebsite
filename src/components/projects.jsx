@@ -167,6 +167,7 @@ class Projects extends Component {
               <li>Tools used during the project:</li>
               <ul>
                 <li>Qualtrics</li>
+                <li>Linkedin Sales Navigator</li>
                 <li>Slack</li>
                 <li>Excel</li>
                 <li>Drive</li>
