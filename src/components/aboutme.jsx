@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 class AboutMe extends Component {
   state = {};
@@ -16,7 +16,7 @@ class AboutMe extends Component {
                     style={{
                       "font-size": "3.5rem",
                       "margin-top": "10vw",
-                      "margin-bottom": "1rem"
+                      "margin-bottom": "1rem",
                     }}
                   >
                     Professional Summary
@@ -29,10 +29,10 @@ class AboutMe extends Component {
                       "margin-top": "1rem",
                     }}
                   >
-                    I'm a hardworking, personable, ambitious, professional student
-                    able to organize, lead, and manage efficiently and effectively
-                    while learning to adapt to a rapidly changing professional
-                    environment.
+                    I'm a hardworking, personable, ambitious, professional
+                    student able to organize, lead, and manage efficiently and
+                    effectively while learning to adapt to a rapidly changing
+                    professional environment.
                   </p>
                 </Fade>
               </div>
@@ -40,7 +40,10 @@ class AboutMe extends Component {
           </div>
         </header>
         <section class="py-5">
-          <div class="container align-items-center" style={{"margin-bottom": "3rem"}}>
+          <div
+            class="container align-items-center"
+            style={{ "margin-bottom": "3rem" }}
+          >
             <h2
               class="font-weight-light"
               style={{
@@ -54,39 +57,58 @@ class AboutMe extends Component {
               height="350px"
               width="500px"
               class="img-fluid float-right"
-              style={{ "margin-top": "2rem", "margin-left": "1rem", "margin-bottom": "2rem" }}
+              style={{
+                "margin-top": "2rem",
+                "margin-left": "1rem",
+                "margin-bottom": "2rem",
+              }}
             />
             <p style={{ "margin-top": "2rem" }}>
               I have a keen interest in pursuing a career combining business
-              with IT system management and have begun that journey at NC State.
-              While at NC State, I have studied information systems in my course
-              work, and I have a great interest in the Information Technology
-              field. From my Information Systems class, I learned how to create
-              solutions in excel to analyze data to solve specific business
-              problems related to production amounts, supply chain issues, and
-              forecasting. I have also taken courses in Computer Science
-              allowing me to design and create Enrollment System Software and
-              Rental Management Software. This allowed me to obtain a key
-              understanding of programming concepts such as data structures and
-              abstraction to help make better, faster software.
+              with IT management and have begun that journey at NC State
+              concentrating in Business IT with a minor in Computer Science.
+              Upon completion of my degree, I will have extensive knowledge of
+              Java, C, SAS, MySQL, Excel data analysis, and Access as well as IT
+              System and Database Management. As of the end of my sophomore
+              year, I have completed introductory and intermediate Java
+              programming classes in which I designed and created an enrollment
+              system software and rental management software among other
+              projects. From my business Information Systems class, I learned
+              how to create solutions in Excel to analyze data to solve specific
+              business problems related to production amounts, supply chain
+              issues, and forecasting.
               <br />
               <br />
-              In addition to my course load, I have been very active in the
-              Creative Marketing Solutions Agency at NC State. Recently, I have
-              become an Account Manager for the Agency and am currently working
-              with Flux Hybrids on a marketing project for their business. Last
-              semester, I worked as an Agency Consultant on the NC State Day of
-              Giving team. This allowed me to gain first-hand experience working
-              on a project team in a professional environment while also gaining
-              significant experience collecting and analyzing marketing data
-              through services such as Qualtrics. In addition, while working on
-              the NC State Day of Giving team last semester, I presented our
-              findings to the NC State client. This was my first professional
-              presentation made to a client and provided me clear insight into
-              how professional presentations differ from those simply made in a
-              classroom setting. It was a tremendously rewarding experience
-              which has only increased my interest in working with clients in
-              the future.
+              In addition to my course load, I have recently developed a
+              financial software program called Open Finance. The goal of the
+              application is to securely track all of the users’ financial
+              investments, assets, and liabilities from a business/accounting
+              perspective. The program was written to give the users a holistic
+              overview of their financial state that is updated in real time
+              without a need for their bank login credentials. The program was
+              written in Java and JavaFX, with 10,000 lines of code in 44 files.
+              My goal in creating the software is to help people understand the
+              issues surrounding finance, including wealth generation, asset
+              diversification, and the seriousness of long-term debt, with an
+              extremely user-friendly interface.
+              <br />
+              <br />
+              During my sophomore year I was very active in CMS Consulting at NC
+              State. In the spring semester, I served as an Account Manager for
+              CMS and worked with a Raleigh based start-up, Flux Hybrids, on
+              marketing research and analysis for its business. During the
+              course of the semester as an Account Manager, I led a six-person
+              marketing team and facilitated client communication with Flux
+              Hybrids. My team provided the client with SWOT analysis,
+              competitor analysis, and marketing channel research, brochure
+              templates, and recommendations on ad messaging, and client
+              engagement. In the previous semester, I had worked as a Consultant
+              on the NC State Day of Giving team. This allowed me to gain
+              experience collecting and analyzing marketing data through
+              services such as Qualtrics. In addition, while working on the NC
+              State Day of Giving team last semester, I presented our findings
+              to the NC State client team. That experience helped me hone my
+              presentation skills in a professional setting.
             </p>
           </div>
         </section>

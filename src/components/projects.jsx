@@ -34,11 +34,8 @@ class Projects extends Component {
                   })
                 }
               >
-                <img
-                  src="images/registrationManager.png"
-                  class="card-img img-darken"
-                />
-                <h2 class="centered">Registration Manager</h2>
+                <img src="images/appIcon.png" class="card-img img-darken" />
+                <h2 class="centered">Open Finance</h2>
               </div>
 
               <div
@@ -78,52 +75,52 @@ class Projects extends Component {
           }}
         >
           <div class="mast container" style={{ "padding-top": "4rem" }}>
-            <h1 class="text-center">Registration Manager</h1>
+            <h1 class="text-center">Open Finance</h1>
             <ul style={{ "padding-top": "3rem" }}>
               <li>
-                A java based course registration system software created as a
-                stand alone local system.
+                A java based finance manager desktop application that gives
+                users a real-time overview of their finances along with analysis
+                of their current financial state.
               </li>
               <li>
-                Pack Scheduler allows for multiple users and user interactions
-                to the system software. Students are allowed to manage their
-                schdules, adding and removing classes within their course limit.
-                Faculty is able to see who is registered in their classes and
-                adds or removes students from a wait list. Admin registrars are
-                allowed to access the entire system and can change every aspect
-                of the system.
+                Open Finance is a project I created for the purpose of providing
+                clear financial literacy to more people in the US. The program
+                allows for users to create accounts to securly store their
+                financial data. Users input their Long Term Assets (ie stocks,
+                bonds, mutual funds, and physical assets), Short Term Assets
+                (cash, savings, checking, cd's, and high-yield savings), Long
+                Term Liabilities (morgages, auto loans, and other debt
+                obligations), and Short Term Liabilities. This approach allows
+                for a holistic view of the user's finances, and allows people to
+                plan for the future knowing the current state of their finances.
               </li>
               <li>
-                The system also implements user authentication and system
-                administrator authentication. To provide different views for
-                students, faculty, and admin registrars who have access to the
-                whole system.
+                The system also implements user authentication and modern
+                encryption standards for storing user data locally on the
+                machine. The system uses AES Encryption with salt and hashed
+                user passwords to allow for modern security of the locally
+                stored files.
               </li>
               <li>
                 Concepts that I used when creating this system would be the mvc
                 design prinicple, doubly linked list with iterators, FSM's for
-                validating course names, and stacks/queus for the waitlist
-                functionality.
+                validating user names, AES Encryption, Singleton Pattern,
+                multithreading in the application, and use of external API's.
               </li>
               <li>
-                <u>Github Repo:</u>{" "}
-                <a
-                  href="https://github.com/sdwelsh/RegistrationManager.git"
-                  class="container text-fluid"
-                >
-                  https://github.com/sdwelsh
-                </a>
+                Open Finance was written over a two month period with 10,000
+                lines of code in over 44 files.
               </li>
             </ul>
             <div class="row" style={{ "padding-top": "2rem" }}>
-              <div class="col-md">
-                <img src="images/login.png" class="card-img" />
+              <div class="col-lg">
+                <img src="images/openFinance1.png" class="card-img" />
               </div>
-              <div class="col-md">
-                <img src="images/registrationManager.png" class="card-img" />
+              <div class="col-lg">
+                <img src="images/openFinance2.png" class="card-img" />
               </div>
-              <div class="col-md">
-                <img src="images/student.png" class="card-img" />
+              <div class="col-lg">
+                <img src="images/openFinance3.png" class="card-img" />
               </div>
             </div>
           </div>
@@ -139,15 +136,15 @@ class Projects extends Component {
             <h1 class="text-center">Marketing Research And Analysis </h1>
             <ul style={{ "padding-top": "4rem" }}>
               <li>
-                I lead a six student consulting team for a new startup in hybrid
-                conversion kits. Hybrid conversion kits are kits ment to convert
-                vehicles using gas into clean hybrid vehicles helping reduce
-                emissions and increase mpg.
+                I led a six student consulting team for a new startup that makes
+                hybrid conversion kits for vehicles. Hybrid conversion kits
+                convert gas engine vehicles into cleaner hybrid vehicles helping
+                reduce emissions and increase miles per gallon.
               </li>
               <li>
                 During the project our team was tasked with conducting the
                 initial marketing research and analysis of the current hybrid
-                vehicle climate. In our reasearch and analysis over the semester
+                vehicle market. In our reasearch and analysis over the semester
                 we delivered:
               </li>
               <ul>
@@ -196,7 +193,7 @@ class Projects extends Component {
             <h1 class="text-center">My Website</h1>
             <ul style={{ "padding-top": "4rem" }}>
               <li>
-                This website was created out of a want to learn new skills in
+                This website was created out of a desire to learn new skills in
                 web development outside my coursework.
               </li>
               <br />
@@ -211,8 +208,8 @@ class Projects extends Component {
               </li>
               <br />
               <li>
-                This Website is hosted Via Netlify and is deploye using the
-                github repo to depoloy the website on Netlify.
+                This Website is hosted Via Netlify and is deployed using a
+                github repo.
               </li>
               <br />
               <li>

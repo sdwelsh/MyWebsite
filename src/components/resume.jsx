@@ -19,15 +19,11 @@ class Resume extends Component {
                 <div style={{ "padding-top": "4rem" }}>
                   <h2>North Carolina State University, Raleigh NC</h2>
                   <h5>
-                    <i>
-                      Bachelor of Arts in Business Administration; Concentration
-                      IT Management
-                    </i>
+                    Bachelor of Arts in Business Administration; Concentration
+                    IT Management
                   </h5>
-                  <h5>
-                    <i>Minor: Computer Science</i>
-                  </h5>
-                  <h5>GPA: 3.940</h5>
+                  <h5>Minor: Computer Science</h5>
+                  <h5>GPA: 3.94</h5>
                 </div>
 
                 <div style={{ "padding-top": "4rem" }}>
@@ -73,16 +69,17 @@ class Resume extends Component {
                 <h4>CMS Consulting</h4>
                 <ul>
                   <li>
-                    Lead a 6-student consultant team focused on marketing
-                    consulting for Flux Hybrids.
+                    Led a six-student consultant team focused on marketing
+                    consulting for a Raliegh based start-up, Flux Hybrids.
                   </li>
                   <li>
                     Facilitated all client communication, planned project scope,
-                    and lead the team project.
+                    and led the team project.
                   </li>
                   <li>
-                    Produced marketing research and analysis in a research paper
-                    with recommendations for the clients next steps.
+                    Produced marketing research and analysis in a 26 page
+                    research paper and presented that research with
+                    recommendations for next steps to our client.
                   </li>
                 </ul>
               </div>
@@ -92,7 +89,7 @@ class Resume extends Component {
                 <h4>CMS Consulting</h4>
                 <ul>
                   <li>
-                    Served on a 6-student consultant team focused on marketing
+                    Served on a six-student consultant team focused on marketing
                     research for NC State.
                   </li>
                   <li>
@@ -153,6 +150,7 @@ class Resume extends Component {
                     <p>Bootstrap</p>
                     <p>HTML</p>
                     <p>CSS</p>
+                    <p>JavaFX</p>
                   </div>
 
                   <div
@@ -166,7 +164,6 @@ class Resume extends Component {
                     <h4>Back End</h4>
                     <p>Java</p>
                     <p>Node.js</p>
-                    <p>MongoDB</p>
                     <p>Springboot</p>
                   </div>
 
