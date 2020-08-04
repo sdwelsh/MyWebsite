@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -27,14 +28,38 @@ class Home extends Component {
                   class="btn btn-dark"
                   onClick={() => this.props.onButton("Resume")}
                 >
-                  Resume
+                  <Router>
+                    <Link to="/resume" style={{ color: "white" }}>
+                      Resume
+                    </Link>
+                    <Switch>
+                      <Route path="/resume">
+                        <Resume />
+                      </Route>
+                      <Route path="/projects">
+                        <Projects />
+                      </Route>
+                    </Switch>
+                  </Router>
                 </button>
               </div>
               <button
                 class="btn btn-dark"
                 onClick={() => this.props.onButton("Projects")}
               >
-                Projects
+                <Router>
+                  <Link to="/projects" style={{ color: "white" }}>
+                    Projects
+                  </Link>
+                  <Switch>
+                    <Route path="/resume">
+                      <Resume />
+                    </Route>
+                    <Route path="/projects">
+                      <Projects />
+                    </Route>
+                  </Switch>
+                </Router>
               </button>
             </div>
           </div>
@@ -45,3 +70,11 @@ class Home extends Component {
 }
 
 export default Home;
+
+function Resume() {
+  return () => this.props.onNav("Resume");
+}
+
+function Projects() {
+  return () => this.props.onNav("Projects");
+}
