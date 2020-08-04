@@ -4,12 +4,11 @@ import React, { Component } from "react";
 
 const encode = (data) => {
   return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-}
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
 
 class Contact extends Component {
-
   constructor(props) {
     super(props);
     this.state = { name: "", email: "", subject: "", message: "" };
@@ -17,19 +16,19 @@ class Contact extends Component {
 
   /* Here’s the juicy bit for posting the form submission */
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      body: encode({ "form-name": "contact", ...this.state }),
     })
       .then(() => alert("Success!"))
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
 
     e.preventDefault();
   };
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
     return (
@@ -44,14 +43,18 @@ class Contact extends Component {
         </p>
 
         <div class="row align-items-center">
-        
           <div class="col-md-6 mb-md-0 mb-5 container">
-            
-          <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
               <div class="row">
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="text" name="name" value={this.name} onChange={this.handleChange} class="form-control"/>
+                    <input
+                      type="text"
+                      name="name"
+                      value={this.name}
+                      onChange={this.handleChange}
+                      class="form-control"
+                    />
                     <label for="name" class="">
                       Your name
                     </label>
@@ -60,7 +63,13 @@ class Contact extends Component {
 
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="email" name="email" value={this.email} onChange={this.handleChange} class="form-control"/>
+                    <input
+                      type="email"
+                      name="email"
+                      value={this.email}
+                      onChange={this.handleChange}
+                      class="form-control"
+                    />
                     <label for="email" class="">
                       Your email
                     </label>
@@ -71,7 +80,13 @@ class Contact extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="text" name="subject" value={this.subject} onChange={this.handleChange} class="form-control"/>
+                    <input
+                      type="text"
+                      name="subject"
+                      value={this.subject}
+                      onChange={this.handleChange}
+                      class="form-control"
+                    />
                     <label for="subject" class="">
                       Subject
                     </label>
@@ -82,20 +97,22 @@ class Contact extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form">
-                    <textarea name="message" value={this.message} onChange={this.handleChange} class="form-control"/>
+                    <textarea
+                      name="message"
+                      value={this.message}
+                      onChange={this.handleChange}
+                      class="form-control"
+                    />
                     <label for="message">Your message</label>
                   </div>
                 </div>
               </div>
               <div class="text-center text-md-left">
-              <button
-                class="btn btn-primary text-white"
-                type="submit"
-              >
-                Send
-              </button>
-            </div>
-            <div class="status"></div>
+                <button class="btn btn-primary text-white" type="submit">
+                  Send
+                </button>
+              </div>
+              <div class="status"></div>
             </form>
           </div>
 
@@ -111,8 +128,8 @@ class Contact extends Component {
                   width="30px"
                 />
                 <p>
-                  111 Friendly Drive, <br />
-                  Raleigh NC
+                  1901 Melrose Valley Circle, <br />
+                  Raleigh, NC 27603
                 </p>
                 <br />
               </li>

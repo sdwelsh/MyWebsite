@@ -24,6 +24,7 @@ class Resume extends Component {
                   </h5>
                   <h5>Minor: Computer Science</h5>
                   <h5>GPA: 3.94</h5>
+                  <h5>Expected Graduation May 2022</h5>
                 </div>
 
                 <div style={{ "padding-top": "4rem" }}>

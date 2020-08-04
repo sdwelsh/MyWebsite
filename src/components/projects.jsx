@@ -78,27 +78,27 @@ class Projects extends Component {
             <h1 class="text-center">Open Finance</h1>
             <ul style={{ "padding-top": "3rem" }}>
               <li>
-                A java based finance manager desktop application that gives
+                A Java based finance manager desktop application that gives
                 users a real-time overview of their finances along with analysis
                 of their current financial state.
               </li>
               <li>
                 Open Finance is a project I created for the purpose of providing
                 clear financial literacy to more people in the US. The program
-                allows for users to create accounts to securly store their
+                allows users to create accounts to securley store their
                 financial data. Users input their Long Term Assets (ie stocks,
                 bonds, mutual funds, and physical assets), Short Term Assets
                 (cash, savings, checking, cd's, and high-yield savings), Long
                 Term Liabilities (morgages, auto loans, and other debt
                 obligations), and Short Term Liabilities. This approach allows
-                for a holistic view of the user's finances, and allows people to
-                plan for the future knowing the current state of their finances.
+                for a holistic view of user finances, and allows people to plan
+                for the future knowing the current state of their finances.
               </li>
               <li>
                 The system also implements user authentication and modern
-                encryption standards for storing user data locally on the
-                machine. The system uses AES Encryption with salt and hashed
-                user passwords to allow for modern security of the locally
+                encryption standards for storing user data locally on their
+                computer. The system uses AES Encryption with salt and hashed
+                users passwords to allow for modern security of the locally
                 stored files.
               </li>
               <li>
@@ -108,7 +108,7 @@ class Projects extends Component {
                 multithreading in the application, and use of external API's.
               </li>
               <li>
-                Open Finance was written over a two month period with 10,000
+                Open Finance was written over a two-month period with 10,000
                 lines of code in over 44 files.
               </li>
             </ul>
@@ -136,10 +136,10 @@ class Projects extends Component {
             <h1 class="text-center">Marketing Research And Analysis </h1>
             <ul style={{ "padding-top": "4rem" }}>
               <li>
-                I led a six student consulting team for a new startup that makes
-                hybrid conversion kits for vehicles. Hybrid conversion kits
-                convert gas engine vehicles into cleaner hybrid vehicles helping
-                reduce emissions and increase miles per gallon.
+                I led a six student consulting team for a new start-up that
+                makes hybrid conversion kits for vehicles. Hybrid conversion
+                kits convert gas engine vehicles into cleaner hybrid vehicles
+                helping reduce emissions and increase miles per gallon.
               </li>
               <li>
                 During the project our team was tasked with conducting the
@@ -199,7 +199,7 @@ class Projects extends Component {
               <br />
               <li>
                 This site is a single React Native app that uses the react
-                library to serve javascript and html content to the user.
+                library to serve Javascript and html content to the user.
               </li>
               <br />
               <li>
@@ -213,7 +213,7 @@ class Projects extends Component {
               </li>
               <br />
               <li>
-                Here is the link to this websites Github repo:{" "}
+                Here is the link to this website's Github repo:{" "}
                 <a href="https://github.com/sdwelsh/MyWebsite">
                   https://github.com/sdwelsh/MyWebsite
                 </a>

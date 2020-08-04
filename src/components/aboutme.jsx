@@ -69,14 +69,16 @@ class AboutMe extends Component {
               concentrating in Business IT with a minor in Computer Science.
               Upon completion of my degree, I will have extensive knowledge of
               Java, C, SAS, MySQL, Excel data analysis, and Access as well as IT
-              System and Database Management. As of the end of my sophomore
-              year, I have completed introductory and intermediate Java
-              programming classes in which I designed and created an enrollment
-              system software and rental management software among other
-              projects. From my business Information Systems class, I learned
-              how to create solutions in Excel to analyze data to solve specific
-              business problems related to production amounts, supply chain
-              issues, and forecasting.
+              System and Database Management.
+              <br />
+              <br />
+              As of the end of my sophomore year, I have completed introductory
+              and intermediate Java programming classes in which I designed and
+              created an enrollment system software and rental management
+              software, among other projects. From my business Information
+              Systems class, I learned how to create solutions in Excel to
+              analyze data to solve specific business problems related to
+              production amounts, supply chain issues, and forecasting.
               <br />
               <br />
               In addition to my course load, I have recently developed a
@@ -87,22 +89,25 @@ class AboutMe extends Component {
               overview of their financial state that is updated in real time
               without a need for their bank login credentials. The program was
               written in Java and JavaFX, with 10,000 lines of code in 44 files.
-              My goal in creating the software is to help people understand the
+              My goal in creating this software is to help people understand the
               issues surrounding finance, including wealth generation, asset
               diversification, and the seriousness of long-term debt, with an
               extremely user-friendly interface.
               <br />
               <br />
-              During my sophomore year I was very active in CMS Consulting at NC
-              State. In the spring semester, I served as an Account Manager for
-              CMS and worked with a Raleigh based start-up, Flux Hybrids, on
-              marketing research and analysis for its business. During the
-              course of the semester as an Account Manager, I led a six-person
-              marketing team and facilitated client communication with Flux
-              Hybrids. My team provided the client with SWOT analysis,
+              During my sophomore year, I was also very active in CMS Consulting
+              at NC State. In the spring semester, I served as an Account
+              Manager for CMS and worked with a Raleigh based start-up, Flux
+              Hybrids, on marketing research and analysis for its business.
+              During the course of the semester as an Account Manager, I led a
+              six-person marketing team and facilitated client communication
+              with Flux Hybrids. My team provided the client with SWOT analysis,
               competitor analysis, and marketing channel research, brochure
               templates, and recommendations on ad messaging, and client
-              engagement. In the previous semester, I had worked as a Consultant
+              engagement.
+              <br />
+              <br />
+              In the fall semester of my sophmore year, I worked as a Consultant
               on the NC State Day of Giving team. This allowed me to gain
               experience collecting and analyzing marketing data through
               services such as Qualtrics. In addition, while working on the NC
