@@ -85,7 +85,7 @@ class Projects extends Component {
               <li>
                 Open Finance is a project I created for the purpose of providing
                 clear financial literacy to more people in the US. The program
-                allows users to create accounts to securley store their
+                allows users to create accounts to securely store their
                 financial data. Users input their Long Term Assets (ie stocks,
                 bonds, mutual funds, and physical assets), Short Term Assets
                 (cash, savings, checking, cd's, and high-yield savings), Long
