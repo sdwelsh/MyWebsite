@@ -44,11 +44,11 @@ class NavBar extends Component {
                   Projects
                 </Link>
               </Nav.Link>
-              <Nav.Link onClick={() => this.props.onNav("Contact")}>
+              {/* <Nav.Link onClick={() => this.props.onNav("Contact")}>
                 <Link to="/contact" style={{ color: "white" }}>
                   Contact Me
                 </Link>
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
